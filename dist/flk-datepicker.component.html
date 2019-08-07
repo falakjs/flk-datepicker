@@ -1,0 +1,5 @@
+<div *if="this.label" class="form-group">
+    <label for="{{ this.inputs.getOption('id') }}" [trans]="this.label"></label>
+    <input *primary autocomplete="off" (focus)="this.datepicker($el)" />
+</div>
+<input *else *primary autocomplete="off" (focus)="this.datepicker($el)" />

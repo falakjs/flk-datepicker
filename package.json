@@ -1,0 +1,23 @@
+{
+  "name": "flk-datepicker",
+  "version": "1.0.5",
+  "description": "Datepicker for Falak framework",
+  "keywords": [
+    "datepicker",
+    "date",
+    "flk"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "pikaday": "^1.8.0"
+  },
+  "author": {
+    "email": "hassanzohdy@gmail.com",
+    "name": "Hasan Zohdy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falakjs/flk-copy2clipboard"
+  }
+}
