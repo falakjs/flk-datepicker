@@ -14,9 +14,8 @@ class Datepicker {
      */
     init() {
         this.label = this.inputs.getOption('label');
+        this.onSelect = this.inputs.getEvent('select');
         this.format = this.inputs.getOption('format', Config.get('form.datepicker.format', 'DD/MM/YYYY'));
-        
-        this.onSelect = this.inputs.getEvent('select'),
     }
 
     /**
