@@ -1,6 +1,6 @@
 {
   "name": "flk-datepicker",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Datepicker for Falak framework",
   "main": "dist/flk-datepicker.component.js",
   "keywords": [
